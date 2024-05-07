@@ -8,7 +8,7 @@ function Recipe() {
         alt="An omelette."
         className="rounded-none sm:rounded-xl"
       />
-      <article className="px-8 py-10 sm:px-0">
+      <article className="px-8 py-10 sm:px-0 sm:py-0 sm:pt-10">
         <header className="space-y-6">
           <h1 className="text-4xl leading-10 text-dark-charcoal sm:text-[2.5rem]">
             Simple Omelette Recipe
@@ -23,7 +23,7 @@ function Recipe() {
           <h2 className="text-xl font-semibold leading-5 text-dark-raspberry">
             Preparation time
           </h2>
-          <ul className="list-disc space-y-2 pl-4 text-[.75rem] marker:text-dark-raspberry">
+          <ul className="ml-2 list-disc space-y-2 pl-4 text-[.75rem] marker:text-dark-raspberry">
             <li>
               <p className="ml-6 text-base">
                 <b>Total</b>: Approximately 10 minutes
@@ -44,7 +44,7 @@ function Recipe() {
 
         <div className="mb-8 space-y-6">
           <h3 className="text-[1.75rem] leading-7 text-nutmeg">Ingredients</h3>
-          <ul className="list-disc space-y-2 pl-4 text-[.75rem] marker:text-nutmeg">
+          <ul className="ml-2 list-disc space-y-2 pl-4 text-[.75rem] marker:text-nutmeg">
             <li>
               <p className="ml-6 text-base">2-3 large eggs</p>
             </li>
@@ -68,44 +68,44 @@ function Recipe() {
         <hr className="border-light-grey" />
 
         <div className="my-8 space-y-6">
-          <h3 className="text-[1.75rem] text-nutmeg">Instructions</h3>
-          <ol className="ml-2 list-decimal space-y-2 pl-4 marker:text-nutmeg">
+          <h3 className="text-[1.75rem] leading-7 text-nutmeg">Instructions</h3>
+          <ol className="ml-2 list-decimal space-y-2 pl-4 font-bold marker:text-nutmeg">
             <li>
-              <p className="ml-4">
+              <p className="ml-4 font-normal">
                 <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of
                 salt and pepper until they are well mixed. You can add a
                 tablespoon of water or milk for a fluffier texture.
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-4 font-normal">
                 <b>Heat the pan</b>: Place a non-stick frying pan over medium
                 heat and add butter or oil.
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-4 font-normal">
                 <b>Cook the omelette</b>: Once the butter is melted and
                 bubbling, pour in the eggs. Tilt the pan to ensure the eggs
                 evenly coat the surface.
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-4 font-normal">
                 <b>Add fillings (optional)</b>: When the eggs begin to set at
                 the edges but are still slightly runny in the middle, sprinkle
                 your chosen fillings over one half of the omelette.
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-4 font-normal">
                 <b>Fold and serve</b>: As the omelette continues to cook,
                 carefully lift one edge and fold it over the fillings. Let it
                 cook for another minute, then slide it onto a plate.
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-4 font-normal">
                 <b>Enjoy</b>: Serve hot, with additional salt and pepper if
                 needed.
               </p>
@@ -116,7 +116,7 @@ function Recipe() {
         <hr className="border-light-grey" />
 
         <div className="mt-8 space-y-6">
-          <h3 className="text-[1.75rem] text-nutmeg">Nutrition</h3>
+          <h3 className="text-[1.75rem] leading-7 text-nutmeg">Nutrition</h3>
           <p>
             The table below shows nutritional values per serving without the
             additional fillings.
