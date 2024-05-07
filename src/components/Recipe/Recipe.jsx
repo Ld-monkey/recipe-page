@@ -20,45 +20,45 @@ function Recipe() {
           </p>
         </header>
         <div className="my-8 space-y-4 rounded-xl bg-rose-white p-6 sm:p-7">
-          <h3 className="text-xl font-semibold text-dark-raspberry">
+          <h2 className="text-xl font-semibold leading-5 text-dark-raspberry">
             Preparation time
-          </h3>
-          <ul className="ml-2 list-disc space-y-2 pl-4 marker:text-dark-raspberry">
+          </h2>
+          <ul className="list-disc space-y-2 pl-4 text-[.75rem] marker:text-dark-raspberry">
             <li>
-              <p className="ml-4">
+              <p className="ml-6 text-base">
                 <b>Total</b>: Approximately 10 minutes
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-6 text-base">
                 <b>Preparation</b>: 5 minutes
               </p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-6 text-base">
                 <b>Cooking</b>: 5 minutes
               </p>
             </li>
           </ul>
         </div>
 
-        <div className="mb-8 space-y-4">
-          <h2 className="text-[1.75rem] text-nutmeg">Ingredients</h2>
-          <ul className="ml-2 list-disc space-y-2 pl-4 marker:text-nutmeg">
+        <div className="mb-8 space-y-6">
+          <h3 className="text-[1.75rem] leading-7 text-nutmeg">Ingredients</h3>
+          <ul className="list-disc space-y-2 pl-4 text-[.75rem] marker:text-nutmeg">
             <li>
-              <p className="ml-4">2-3 large eggs</p>
+              <p className="ml-6 text-base">2-3 large eggs</p>
             </li>
             <li>
-              <p className="ml-4">Salt, to taste</p>
+              <p className="ml-6 text-base">Salt, to taste</p>
             </li>
             <li>
-              <p className="ml-4">Pepper, to tastex</p>
+              <p className="ml-6 text-base">Pepper, to tastex</p>
             </li>
             <li>
-              <p className="ml-4">1 tablespoon of butter or oil</p>
+              <p className="ml-6 text-base">1 tablespoon of butter or oil</p>
             </li>
             <li>
-              <p className="ml-4">
+              <p className="ml-6 text-base">
                 Optional fillings: cheese, diced vegetables, cooked meats, herbs
               </p>
             </li>
@@ -68,7 +68,7 @@ function Recipe() {
         <hr className="border-light-grey" />
 
         <div className="my-8 space-y-6">
-          <h2 className="text-[1.75rem] text-nutmeg">Instructions</h2>
+          <h3 className="text-[1.75rem] text-nutmeg">Instructions</h3>
           <ol className="ml-2 list-decimal space-y-2 pl-4 marker:text-nutmeg">
             <li>
               <p className="ml-4">
@@ -116,7 +116,7 @@ function Recipe() {
         <hr className="border-light-grey" />
 
         <div className="mt-8 space-y-6">
-          <h2 className="text-[1.75rem] text-nutmeg">Nutrition</h2>
+          <h3 className="text-[1.75rem] text-nutmeg">Nutrition</h3>
           <p>
             The table below shows nutritional values per serving without the
             additional fillings.
