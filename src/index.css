@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family:
+      'Outfit',
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+  h1,
+  h2,
+  h4,
+  h5,
+  h6 {
+    font-family: 'YoungSerif';
+  }
+  p {
+    color: hsl(30, 10%, 34%);
+  }
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'YoungSerif';
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
